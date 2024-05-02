@@ -12,6 +12,8 @@
 void loginPageInit();
 void sqlConnectInit();
 
+//从远程库拉到本地库
+
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
