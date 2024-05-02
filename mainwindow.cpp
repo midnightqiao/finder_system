@@ -12,7 +12,7 @@
 #include <QTableView>
 #include <QSqlQueryModel>
 
-
+//不使用git add 添加到暂存区，直接git commit提交本地仓库，会把变动的直接提交
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow()),timer(this),runtime(0),addItemPage(this),tcp(new TcpConnect())
