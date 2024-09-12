@@ -48,7 +48,7 @@ void loginPageInit()
 void sqlConnectInit()
 {
     if(SingleSql::getSql()->connect2Sql()){
-        qDebug()<<"连接成功"<<endl;
+        qDebug()<<"连接成功";
     }else{
         qDebug()<<"连接失败:"<<SingleSql::getSql()->returnError();
         QMessageBox::warning(nullptr,"数据库连接错误",SingleSql::getSql()->returnError());
