@@ -1,3 +1,4 @@
+#the first remote commit use git bash not QT Creator GUI
 #for first remote commit
 QT       += core gui
 
