@@ -1,4 +1,4 @@
-/********************************************************************************
+﻿/********************************************************************************
 ** Form generated from reading UI file 'loginpage.ui'
 **
 ** Created by: Qt User Interface Compiler version 6.2.4
@@ -467,7 +467,6 @@ public:
         QWidget::setTabOrder(btn_login, btn_forget);
 
         retranslateUi(LoginPage);
-        QObject::connect(lineE_user_name, &QLineEdit::returnPressed, btn_login, qOverload<>(&QPushButton::hide));
 
         QMetaObject::connectSlotsByName(LoginPage);
     } // setupUi
