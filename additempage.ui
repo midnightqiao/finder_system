@@ -88,6 +88,10 @@
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>btn_cancel</tabstop>
+  <tabstop>btn_record</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

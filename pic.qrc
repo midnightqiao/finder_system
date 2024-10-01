@@ -18,5 +18,7 @@
         <file>res/pic/wx.png</file>
         <file>res/pic/wx-hover.png</file>
         <file>res/pic/favicon.ico</file>
+        <file>res/pic/wb111.png</file>
+        <file>res/pic/wx111.png</file>
     </qresource>
 </RCC>

@@ -1,5 +1,10 @@
+#null commit
 #the first remote commit use git bash not QT Creator GUI
 #for first remote commit
+
+#set executable filename
+TARGET =    FS
+
 QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets sql network
@@ -62,4 +67,4 @@ RESOURCES += \
     pic.qrc \
     qss.qrc
 
-DISTFILES +=
+

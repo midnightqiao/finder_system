@@ -1,4 +1,5 @@
 ﻿#include "mainwindow.h"
+#include "ui_mainwindow.h"
 
 #include <QApplication>
 #include "loginpage.h"
@@ -14,6 +15,10 @@ void sqlConnectInit();
 
 //从远程库拉到本地库
 
+
+
+
+
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
@@ -24,9 +29,6 @@ int main(int argc, char *argv[])
     MainWindow w;
 
     TcpConnect tcp;
-
-
-
     return a.exec();
 }
 
